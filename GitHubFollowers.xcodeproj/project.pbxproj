@@ -70,22 +70,54 @@
 		8C8F48912BFBF597005B6CE8 /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				8C8F48922BFBF597005B6CE8 /* AppDelegate.swift */,
-				8C8F48942BFBF597005B6CE8 /* SceneDelegate.swift */,
+				8CA67F9E2BFD2BC9008B0AA1 /* Extension */,
+				8CA67F9D2BFD210A008B0AA1 /* Custom Views */,
+				8CA67F9F2BFD2C1A008B0AA1 /* Support */,
+				8CA67F9C2BFD20DC008B0AA1 /* Screens */,
+			);
+			path = GitHubFollowers;
+			sourceTree = "<group>";
+		};
+		8CA67F9C2BFD20DC008B0AA1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F48A82BFC1BC4005B6CE8 /* FavoritesListVC.swift */,
+				8CA67F922BFCE043008B0AA1 /* FollowerListVC.swift */,
+				8C8F48A62BFC1B8E005B6CE8 /* SearchVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8CA67F9D2BFD210A008B0AA1 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CA67F982BFCE801008B0AA1 /* GFAlertVC.swift */,
 				8C8F48AA2BFC21A4005B6CE8 /* GFButton.swift */,
 				8C8F48AC2BFC2464005B6CE8 /* GFTextField.swift */,
+				8CA67F942BFCE55D008B0AA1 /* GFTitleLabel.swift */,
+				8CA67F962BFCE6AB008B0AA1 /* GFBodyLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		8CA67F9E2BFD2BC9008B0AA1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8CA67F9A2BFD188F008B0AA1 /* UIViewController+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8CA67F9F2BFD2C1A008B0AA1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F48922BFBF597005B6CE8 /* AppDelegate.swift */,
+				8C8F48942BFBF597005B6CE8 /* SceneDelegate.swift */,
 				8C8F489B2BFBF59B005B6CE8 /* Assets.xcassets */,
 				8C8F489D2BFBF59B005B6CE8 /* LaunchScreen.storyboard */,
 				8C8F48A02BFBF59B005B6CE8 /* Info.plist */,
-				8C8F48A62BFC1B8E005B6CE8 /* SearchVC.swift */,
-				8CA67F922BFCE043008B0AA1 /* FollowerListVC.swift */,
-				8CA67F942BFCE55D008B0AA1 /* GFTitleLabel.swift */,
-				8CA67F962BFCE6AB008B0AA1 /* GFBodyLabel.swift */,
-				8CA67F982BFCE801008B0AA1 /* GFAlertVC.swift */,
-				8C8F48A82BFC1BC4005B6CE8 /* FavoritesListVC.swift */,
-				8CA67F9A2BFD188F008B0AA1 /* UIViewController+Ext.swift */,
 			);
-			path = GitHubFollowers;
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
