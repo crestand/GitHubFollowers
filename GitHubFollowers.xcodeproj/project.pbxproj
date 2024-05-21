@@ -23,7 +23,7 @@
 		8CD18BC02BFD531B00FC235B /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD18BBF2BFD531B00FC235B /* Follower.swift */; };
 		8CD18BC22BFD53B700FC235B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD18BC12BFD53B700FC235B /* User.swift */; };
 		8CD18BC52BFD5CFF00FC235B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD18BC42BFD5CFF00FC235B /* NetworkManager.swift */; };
-		8CD18BC82BFD670900FC235B /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD18BC72BFD670900FC235B /* ErrorMessage.swift */; };
+		8CD18BC82BFD670900FC235B /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD18BC72BFD670900FC235B /* GFError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,7 @@
 		8CD18BBF2BFD531B00FC235B /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		8CD18BC12BFD53B700FC235B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8CD18BC42BFD5CFF00FC235B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		8CD18BC72BFD670900FC235B /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		8CD18BC72BFD670900FC235B /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +151,7 @@
 		8CD18BC62BFD66FA00FC235B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				8CD18BC72BFD670900FC235B /* ErrorMessage.swift */,
+				8CD18BC72BFD670900FC235B /* GFError.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -233,7 +233,7 @@
 				8CA67F9B2BFD188F008B0AA1 /* UIViewController+Ext.swift in Sources */,
 				8C8F48A72BFC1B8E005B6CE8 /* SearchVC.swift in Sources */,
 				8CA67F992BFCE801008B0AA1 /* GFAlertVC.swift in Sources */,
-				8CD18BC82BFD670900FC235B /* ErrorMessage.swift in Sources */,
+				8CD18BC82BFD670900FC235B /* GFError.swift in Sources */,
 				8CA67F972BFCE6AB008B0AA1 /* GFBodyLabel.swift in Sources */,
 				8CD18BC02BFD531B00FC235B /* Follower.swift in Sources */,
 				8CA67F952BFCE55D008B0AA1 /* GFTitleLabel.swift in Sources */,
